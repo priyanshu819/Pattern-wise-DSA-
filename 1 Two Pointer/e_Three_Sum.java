@@ -1,6 +1,4 @@
 import java.util.*;
-
-
 public class e_Three_Sum {
       public static void main(String[] Args){
         
@@ -8,13 +6,9 @@ public class e_Three_Sum {
         //int arr[]={0,0,0,0};
         int arr[]={1,2,0,1,0,0,0,0};
         int tg=0;
-
         List<List<Integer>> ans= new ArrayList<>();
-
         ans=threeSum(arr,tg);
-
         System.out.println("O/P: "+ans);
-    
     }
     //  int arr[]={-1,0,1,2,-1,4};
     //            {-1,-1,0,1,2,4}
