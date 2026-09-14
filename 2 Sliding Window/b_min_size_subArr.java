@@ -40,7 +40,7 @@ public class b_min_size_subArr {
         return  res;
 
     }
-  
+  // AMn mcd
 
     
 }
