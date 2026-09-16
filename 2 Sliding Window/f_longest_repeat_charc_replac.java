@@ -11,7 +11,6 @@ public class f_longest_repeat_charc_replac {
         System.out.println("o/p: "+ans);
 
     }
-
     // case 1: i/p=AABABBA, k=1, o/p=4
     // case 2: i/p=ABAB, k=2, o/p=4
     // case 32: i/p:BAAAB, k=2, o/p=5
