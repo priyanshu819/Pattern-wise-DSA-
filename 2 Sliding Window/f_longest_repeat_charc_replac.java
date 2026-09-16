@@ -9,6 +9,7 @@ public class f_longest_repeat_charc_replac {
 
         int ans=characterReplacement(str,k);
         System.out.println("o/p: "+ans);
+
     }
 
     // case 1: i/p=AABABBA, k=1, o/p=4
@@ -42,8 +43,8 @@ public class f_longest_repeat_charc_replac {
 
     static int findMax(int[] arr){
         int max=-1;
-        for(int i=0; i<arr.length-1; i++){
-            if(arr[i]>arr[i+1])
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]>max)
                 max=arr[i];
         }
         return max;
