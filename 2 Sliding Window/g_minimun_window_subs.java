@@ -45,7 +45,7 @@ public class g_minimun_window_subs {
             return s.substring(start,start+res);
         else
             return "";
-    }
+    } 
     static boolean is_true(int[] have,int[] need){
         for(int i=0; i<128; i++){
              if(have[i]<need[i])
