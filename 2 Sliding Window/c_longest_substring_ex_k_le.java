@@ -35,7 +35,6 @@ public class c_longest_substring_ex_k_le {
             if(res<len)
                 res=len;
           }
-          
       }
       return res;
     }
