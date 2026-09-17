@@ -52,6 +52,6 @@ public class g_minimun_window_subs {
                 return false;
         }
         return true;
-    }  
+     }  
     }
 
