@@ -41,6 +41,7 @@ public class a_maximum_avg_subArr {
             avg=avg+(double)nums[high]/k;
             avg=avg-(double)nums[low-1]/k;
         }
+        
       return max;
     }
 }
