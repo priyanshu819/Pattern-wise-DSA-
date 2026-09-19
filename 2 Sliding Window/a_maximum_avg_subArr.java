@@ -43,4 +43,5 @@ public class a_maximum_avg_subArr {
         }
       return max;
     }
+    
 }
