@@ -31,5 +31,5 @@ public class j_happy_no_202 {
     }
     return sum;
    }
-   
+
 }
