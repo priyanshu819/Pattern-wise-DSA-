@@ -25,8 +25,6 @@ public class b_max_prod_dubs_152 {
                 maxans=Math.max(v3,Math.max(v1,v2));
                 minans=Math.min(v3,Math.min(v1,v2));
                 ans=Math.max(ans,Math.max(maxans,minans));
-                
-
             }
             return  ans;
 
