@@ -5,6 +5,7 @@ public class c_min_sum_subba {
         int ans=a.minSubarraySum(arr);
         System.out.println("o/p: "+ans);
     }
+    
     public int minSubarraySum(int[] arr) {
         // code here
         int bestans=arr[0];
