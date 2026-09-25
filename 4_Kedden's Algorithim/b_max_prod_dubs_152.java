@@ -7,7 +7,6 @@ public class b_max_prod_dubs_152 {
         b_max_prod_dubs_152 a=new b_max_prod_dubs_152();
         int ans=a.maxProduct(arr);
         System.out.println("o/p: "+ans);
-        
 
     }
         //int arr[]={2,3,-2,4}; op=6
