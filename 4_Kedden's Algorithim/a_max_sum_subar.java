@@ -19,7 +19,6 @@ public class a_max_sum_subar {
                 int v2=nums[i];
                 bestans=Math.max(v1, v2);
                 ans=Math.max(ans, bestans);
-
             }
             return ans;
         }
