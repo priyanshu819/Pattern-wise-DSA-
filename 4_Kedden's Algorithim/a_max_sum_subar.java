@@ -11,7 +11,6 @@ public class a_max_sum_subar {
         //int arr[]={-2,1,-3,4,-1,2,1,-5,4};, op=6
         //int arr[]={1};  o/p =1
         //int arr[]={5,4,-1,7,8};  o/p=23
-
         public int  maxSubArray(int[] nums){
             int bestans=nums[0];
             int ans=nums[0];
