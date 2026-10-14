@@ -22,7 +22,6 @@ public class a_724_find_pivot {
              total_sum+=nums[i];    
         }
         int prefix=0;
-       
         for(int i=0; i<nums.length; i++){
             if(prefix==total_sum-prefix-nums[i])
                 return i;
