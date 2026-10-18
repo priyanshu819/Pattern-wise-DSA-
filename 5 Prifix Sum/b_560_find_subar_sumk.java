@@ -16,20 +16,15 @@ public class b_560_find_subar_sumk {
         int count=0;
         int total_sum=0;
         map.put(0,1);
-
         for(int i=0; i<nums.length; i++){
-           
             total_sum+=nums[i];
             int tg=total_sum-k;
             if (map.containsKey(tg)){
-                count+=map.get(tg);
-                
+                count+=map.get(tg);  
             }
-             map.put(total_sum,map.getOrDefault(total_sum, 0)+1);
-            
+             map.put(total_sum,map.getOrDefault(total_sum, 0)+1);  
         }
-        return count;
-        
+        return count; 
     }
 }
 
