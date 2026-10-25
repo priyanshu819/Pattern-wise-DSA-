@@ -32,10 +32,8 @@ public class c_525_contigious_Array {
                     continue;
                 }
                 map.put(diff, i);
-
             }
         }
         return maxlen;
-
     }
 }
