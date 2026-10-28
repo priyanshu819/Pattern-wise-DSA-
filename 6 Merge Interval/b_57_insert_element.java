@@ -17,7 +17,7 @@ public class b_57_insert_element {
             }
             list.add(intervals[i]);
         }
-        // ater 
+        // ater insertion it will be mearge
     }
 }
  
