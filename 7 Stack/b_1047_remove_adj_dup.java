@@ -17,10 +17,12 @@ public class b_1047_remove_adj_dup {
             continue;
         }
         st.push(s.charAt(i));
+       }
+       String t="";
         while(!st.isEmpty()){
-            
+         t=t+st.pop();
         }
-
-      }
+        return new StringBuilder(t).reverse().toString();
+      
    }
 }
