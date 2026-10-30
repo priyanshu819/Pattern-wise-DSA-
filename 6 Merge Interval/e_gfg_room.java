@@ -21,6 +21,7 @@ public class e_gfg_room {
                 j++;
             }
         }
+        
         return ans;
     }
 }
