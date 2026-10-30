@@ -19,7 +19,6 @@ public class e_gfg_room {
             else{
                 room--;
                 j++;
-          
             }
         }
         return ans;
