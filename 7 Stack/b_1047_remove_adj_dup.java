@@ -1,0 +1,23 @@
+import java.util.*;
+public class b_1047_remove_adj_dup {
+   public static void main(String[] Args){
+      String str="abbaca";
+      String ans=removeDuplicates(str);
+      System.out.println("o/p: "+ans);
+   } 
+   static String removeDuplicates(String s){
+      Stack<Character> st=new Stack<>();
+      for(int i=0; i<s.length(); i++){
+        if(st.isEmpty()){
+            st.push(s.charAt(i));
+            continue;
+        }
+        if(st.peek()==s.charAt(i)){
+            st.pop();
+            continue;
+        }
+        st.push(s.charAt(i));
+
+      }
+   }
+}
