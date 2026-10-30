@@ -17,6 +17,9 @@ public class b_1047_remove_adj_dup {
             continue;
         }
         st.push(s.charAt(i));
+        while(!st.isEmpty()){
+            
+        }
 
       }
    }
