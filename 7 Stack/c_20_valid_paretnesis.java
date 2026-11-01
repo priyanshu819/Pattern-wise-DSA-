@@ -1,10 +1,11 @@
 import java.util.*;
 public class c_20_valid_paretnesis {
     public static void main(String[] Args){
-        String s="([)]";
+        String s="(])";
         boolean ans=isValid(s);
         System.out.println("o/p: "+ans);
     }
+    //s="(])"
     static boolean isValid(String s){
         Stack<Character> st=new Stack<>();
         for(int i=0; i<s.length(); i++){
@@ -19,6 +20,7 @@ public class c_20_valid_paretnesis {
                         st.pop();
                         continue;
                     }
+                    return false;
                    
             }
         }
