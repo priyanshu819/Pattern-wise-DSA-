@@ -47,7 +47,6 @@ public class e_1006_clumsy_facto {
             }
 
          }
-
          int res=0;
          while(!st.isEmpty()){
             res+=st.peek();
