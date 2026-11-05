@@ -11,7 +11,6 @@ public class f_3557_computer {
         for(int i=1; i<n; i++){
             if(complexity[i]<=complexity[0])
                 return 0;
-            
             ans=(ans*i)%mod;
         }
         return (int) ans;
